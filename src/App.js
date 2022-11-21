@@ -1,9 +1,15 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { pokedex } from "./imgsArr";
 
+import './App.css';
+import Buttons from './components/Buttons';
+import { pokedex } from "./imgsArr";
 function App() {
-  return <div className="App">{pokedex}</div>;
+  return (
+    <div className="App">
+    <div className="App">{pokedex}</div>;
+      <Buttons></Buttons>
+    </div>
+  );
+
 }
 
 export default App;
