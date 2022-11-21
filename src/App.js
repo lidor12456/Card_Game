@@ -1,12 +1,20 @@
 
-import './App.css';
+import Footer from "./Components/Footer";
+import "./App.css";
 import Buttons from './components/Buttons';
-import { pokedex } from "./imgsArr";
+
 function App() {
   return (
     <div className="App">
-    <div className="App">{pokedex}</div>;
-      <Buttons></Buttons>
+
+      <header className="App-header">
+        <Buttons/>
+        <SingleCard/>
+        <Footer />
+        
+      </header>
+
+  
     </div>
   );
 
