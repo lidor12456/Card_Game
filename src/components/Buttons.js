@@ -1,9 +1,8 @@
 function Buttons(){
     return (
         <div>
-            <button>new game</button>
-            <button>back</button>
-
+            <button>New game</button>
+            <button>Back</button>
         </div>
     )
 }
